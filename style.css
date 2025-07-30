@@ -1,0 +1,128 @@
+/* style.css */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  #header {
+    padding: 20px 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+  #hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('victor.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  .about ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .section-title h2 {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .section-title p {
+    font-style: italic;
+    color: #111;
+  }
+  
+  .skills label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .resume h5 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .resume p {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .resume em {
+    color: #6c757d;
+  }
+
+  .testimonials img {
+    border: 3px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .testimonials h5 {
+    font-weight: 600;
+  }
+  .testimonials p {
+    font-style: italic;
+    max-width: 700px;
+  }
+  
+  .contact .info-item {
+    font-size: 16px;
+    color: #333;
+  }
+  .contact input, 
+  .contact textarea {
+    border-radius: 0.5rem;
+  }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 999;
+    display: none;
+    transition: all 0.3s ease;
+  }
+  .back-to-top:hover {
+    background: #0056b3;
+  }
+  .back-to-top i {
+    font-size: 18px;
+  }
+  
+  .footer {
+    background: #111;
+    color: #ccc;
+  }
+  .footer a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s ease;
+  }
+  .footer a:hover {
+    color: #fff;
+  }
+  .footer .social-links i {
+    font-size: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
